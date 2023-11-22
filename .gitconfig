@@ -1,0 +1,13 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = KatieZoe
+	email = 80615590+KatieZoe@users.noreply.github.com
+[core]
+	editor = code --wait
+	pager = less -F -X
+[commit]
+	template = /Users/katie.lugton/.gitmessage.txt
