@@ -4,6 +4,8 @@ stored in a `bare` git repository (
 [link](https://www.atlassian.com/git/tutorials/dotfiles)
 )
 
+**NB:** You will be used to typing `git` all the time but the below alias sets `config` to now replace `git` when interacting with this `bare` repo (you'll only do this in your root directory).
+
 ```
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 echo ".dotfiles" >> .gitignore
