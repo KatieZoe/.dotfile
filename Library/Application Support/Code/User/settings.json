@@ -1,0 +1,18 @@
+{
+    "emmet.includeLanguages": {
+        "erb": "html"
+    },
+    "html.format.contentUnformatted": "",
+    "emmet.showSuggestionsAsSnippets": true,
+    "editor.tabSize": 2,
+    "editor.minimap.maxColumn": 50,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.zoomLevel": 1,
+    "files.trimTrailingWhitespace": true
+}
