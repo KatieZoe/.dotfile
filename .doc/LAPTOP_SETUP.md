@@ -21,7 +21,7 @@
 
 1. **using existing .dotfiles**
    ```
-   git clone --bare git@github.com:saramic/.dotfiles.git $HOME/.dotfiles
+   git clone --bare git@github.com:KatieZoe/.dotfile.git $HOME/.dotfiles
    # based on which git
    alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
    config status
