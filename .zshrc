@@ -128,3 +128,6 @@ export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 
 # Install shell integrations for image cat (iterm) display inline image in iterm capability
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Fix for objc[19094]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called error
+export DISABLE_SPRING=true
