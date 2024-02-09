@@ -4,3 +4,5 @@ brew "asdf"                 # Extendable version manager with support for
                             # Ruby, Node.js, Erlang & more
                             # https://asdf-vm.com/
 brew "exercism"             # code learning platform
+
+cask "spectacle"            # screen realestate management
