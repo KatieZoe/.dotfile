@@ -122,3 +122,6 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 
 # Homebrew asdf setup
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+# Not sure where PATH is being set but forcing postgres.app to run first
+export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
