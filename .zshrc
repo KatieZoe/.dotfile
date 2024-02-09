@@ -125,3 +125,6 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 
 # Not sure where PATH is being set but forcing postgres.app to run first
 export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
+
+# Install shell integrations for image cat (iterm) display inline image in iterm capability
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
