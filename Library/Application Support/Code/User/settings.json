@@ -1,18 +1,24 @@
 {
-    "emmet.includeLanguages": {
-        "erb": "html"
-    },
-    "html.format.contentUnformatted": "",
-    "emmet.showSuggestionsAsSnippets": true,
-    "editor.tabSize": 2,
-    "editor.minimap.maxColumn": 50,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "window.zoomLevel": 1,
-    "files.trimTrailingWhitespace": true
+  "emmet.includeLanguages": {
+    "erb": "html",
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.tabSize": 2,
+  "editor.minimap.maxColumn": 50,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 2,
+  "files.trimTrailingWhitespace": true,
+  "html.format.contentUnformatted": "",
+  "emmet.triggerExpansionOnTab": true,
+  "files.associations": { "*html": "html" },
+  "emmet.useInlineCompletions": true,
+  "emmet.preferences": {},
+  "editor.detectIndentation": false,
+  "workbench.settings.applyToAllProfiles": ["editor.tabSize"]
 }
