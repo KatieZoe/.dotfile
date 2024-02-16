@@ -119,15 +119,16 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias zshrc="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
+alias mablerails="RAILS_RELATIVE_URL_ROOT=/app FACEOFF_BASE_PATH="" bin/rails s"
 
 # Homebrew asdf setup
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
-
-# Not sure where PATH is being set but forcing postgres.app to run first
-export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 
 # Install shell integrations for image cat (iterm) display inline image in iterm capability
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Fix for objc[19094]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called error
 export DISABLE_SPRING=true
+
+# exporting path to Brewfile so 'brew bundle install' works
+export HOMEBREW_BUNDLE_FILE="$HOME/.bin/Brewfile"
