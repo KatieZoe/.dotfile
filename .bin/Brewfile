@@ -6,3 +6,9 @@ brew "asdf"                 # Extendable version manager with support for
 brew "exercism"             # code learning platform
 
 cask "spectacle"            # screen realestate management
+
+brew "postgresql@15"        # Object-relational database system
+                            # https://www.postgresql.org/
+brew "postgis"              # Adds support for geographic objects to PostgreSQL
+                            # https://postgis.net/
+                            # postgis: stable 3.3.4 (bottled), HEAD
