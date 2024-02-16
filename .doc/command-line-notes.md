@@ -30,3 +30,7 @@ Open settings
 
 Kill process running on given port (just replace below with port number)
 `npx kill-port 8080`
+
+launch postgres with `psql postgres` and get a list of databases with `\l` to quit `\q`
+
+With Docker running `Docker ps` gives you the list of the images and their container id then `docker exec -it xxxxxxx bin/rails c` (replace xxxxx with container id for container you want to run the console for)
