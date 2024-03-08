@@ -121,6 +121,9 @@ alias zshrc="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias mablerails="RAILS_RELATIVE_URL_ROOT=/app FACEOFF_BASE_PATH="" bin/rails s"
 
+# Mable AWS Kubernetes
+source /Users/katie.lugton/Projects/.aws_k8_mable
+
 # Homebrew asdf setup
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
@@ -132,3 +135,6 @@ export DISABLE_SPRING=true
 
 # exporting path to Brewfile so 'brew bundle install' works
 export HOMEBREW_BUNDLE_FILE="$HOME/.bin/Brewfile"
+
+# Setting path? can't fully remember why I added this (something to do with resetting up kubernetes)
+export PATH=$HOME/bin:$PATH
